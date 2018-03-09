@@ -1,0 +1,9 @@
+Manual checklist
+========================================================================================================================
+
+[ ] Apache is logging to /var/log/apache2/
+
+[ ] phpinfo is shown on url "http://localhost"
+
+[ ] phpinfo is shown on url "http://localhost/some/url"
+
