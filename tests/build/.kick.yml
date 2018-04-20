@@ -1,0 +1,7 @@
+version: 1
+from: "testing-version-local-build"
+
+command:
+  init:
+  test:
+    - "echo something"
