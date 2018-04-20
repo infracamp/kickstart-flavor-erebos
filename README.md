@@ -11,7 +11,10 @@ Available Versions: (default `.kick.yml`: `from: "continue/kickstart-flavor-ereb
 | `continue/kickstart-flavor-erebos:testing`          | Nightly build - for testing only      |
 | `continue/kickstart-flavor-erebos:release-1.0.1`    | Run explicit release                  |
 
+## HowTos
 
+- [Typescript browser side debugging](doc/typescript-debugging.md)
+- [Typescript lessons learned](doc/typescript-lessons-learned.md)
 
 
 
