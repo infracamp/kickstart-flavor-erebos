@@ -12,7 +12,7 @@ function on_error () {
 
 
 
-docker build -t kickstart-test-erebos:testing ../flavor/
+docker build -t kickstart-test-erebos:testing ../../flavor/
 
 ./kickstart.sh -t kickstart-test-erebos:testing
 
