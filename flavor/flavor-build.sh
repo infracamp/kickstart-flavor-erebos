@@ -5,6 +5,7 @@ set -e
 CONF_VERSION_NODEJS="latest"
 CONF_VERSION_ANGULAR="latest"
 
+apt-get update
 apt-get install -y npm
 
 echo "Upgrading to nodejs:$CONF_VERSION_NODEJS..."
