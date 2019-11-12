@@ -6,7 +6,9 @@ CONF_VERSION_NODEJS="latest"
 CONF_VERSION_ANGULAR="latest"
 
 apt-get update
-apt-get install -y npm
+apt-get install -y npm nginx
+
+cp /kickstart/nginx.conf /etc/nginx/nginx.conf
 
 echo "Upgrading to nodejs:$CONF_VERSION_NODEJS..."
 npm install -g n
