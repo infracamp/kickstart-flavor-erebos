@@ -16,9 +16,14 @@ Available Versions: (default `.kick.yml`: `from: "infracamp/kickstart-flavor-ere
 
 | Package | Version |
 |---------|---------|
-| nodejs  | v8.10.0 |
-| npm     | 6.4.1   |
-| nodemon | 1.18.6  |
+| nodejs  | v13.1.0 |
+| npm     | 6.12.1   |
+| nodemon | 1.19.4  |
+
+## Demo Project
+
+- Available via `kickstart skel`:
+    - `node_expresjs`: Basi hello world example with nodejs, nodemon 
 
 ## HowTos
 
