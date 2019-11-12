@@ -25,6 +25,8 @@ Available Versions: (default `.kick.yml`: `from: "infracamp/kickstart-flavor-ere
 - Available via `kickstart skel`:
     - `node_expresjs`: Basi hello world example with nodejs, nodemon 
 
+## The Container comes with an nginx reverse_proxy mapping :8080 -> :80
+
 ## HowTos
 
 - [Typescript browser side debugging](doc/typescript-debugging.md)
