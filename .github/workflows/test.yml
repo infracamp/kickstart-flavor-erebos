@@ -1,0 +1,19 @@
+name: test-on-push
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: recursive
+
+    - name: Build the container
+      run: "cd test/01-devmode && ./build.sh"
+    - name: run tests
+      run: "cd test/01-devmode && ./test.sh"
+    # Autobuild will create :experimental tag

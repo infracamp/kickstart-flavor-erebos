@@ -1,5 +1,8 @@
 # Kickstart flavor: erebos (Angular NodeJS)
 
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Finfracamp%2Fkickstart-flavor-erebos%2Fbadge&style=flat)](https://github.com/infracamp/kickstart-flavor-erebos/actions)
+[![Latest Stable Version](https://img.shields.io/github/release/infracamp/kickstart-flavor-erebos.svg)](https://github.com/infracamp/kickstart-flavor-erebos/releases)
+[![Docker Pulls](https://img.shields.io/docker/pulls/infracamp/kickstart-flavor-erebos.svg)](https://github.com/infracamp/kickstart-flavor-erebos)
 
 ***[Click here for information about basic kickstart usage](https://infracamp.org)***
 
