@@ -48,6 +48,50 @@ Steps executed when a SIGTERM signal is received
 - [Typescript lessons learned](doc/typescript-lessons-learned.md)
 
 
+## Code debugging
+
+To enable debugging, start nodemon with the `--inpect=0.0.0.0:4200` parameter.
+
+This will start the debugger on Port `4200`.
+
+### VSCode
+
+Create a `.vscode/launch.json` in your project root. The `launch.json` needs to contain following content:
+```json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Docker: Attach to Node",            
+            "protocol": "auto",
+            "port": 4200,
+            "restart": true,
+            "cwd": "${workspaceFolder}",
+            "localRoot": "${workspaceFolder}/dist",
+            "remoteRoot": "/opt/dist",
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ],
+            "skipFiles": [
+                "<node_internals>/**/*.js",
+            ]
+        }
+    ]
+}
+```
+
+
+### IntelliJ
+
+![Remote Debug](doc/intellij-remote-debug.png)
+
+
+
 
 
 
